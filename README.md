@@ -99,6 +99,7 @@ Esse comando é como dizer “Olá, mundo!” em Dockerês. Ele baixa uma imagem
 ```yaml
 
 version: '3'
+
 services:
   web:
     image: nginx:latest
@@ -205,6 +206,7 @@ Ao utilizar o Docker Compose, você se torna o maestro de uma orquestra de conta
 ```yaml
 
 version: '3.9'
+
 services:
   webapp:
     image: nginx:latest
